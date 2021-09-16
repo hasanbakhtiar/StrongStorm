@@ -1,0 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.myText{
+    font-family: 'Dancing Script', cursive;
+} */
+
+.box{
+    width: 100px; 
+    height: 100px;
+    background-color: black;
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px; */
+    margin: 20px 10px 10px 30px;
+}
+
+.box1{
+    width: 100px; 
+    height: 100px;
+    background-color: red;
+    /* padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px; */
+    /* padding: 20px  40px; */
+    /* padding: 20px  10px 40px; */
+    padding: 20px 10px 10px 40px;
+}

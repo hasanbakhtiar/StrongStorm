@@ -1,0 +1,25 @@
+/* this is comment  */
+
+/* ul li{
+    color: red;
+} */
+
+/* #firstText{
+    color: green;
+}
+.my-Text1{
+    color: red;
+} */
+
+.newText{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: lowercase;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    
+}

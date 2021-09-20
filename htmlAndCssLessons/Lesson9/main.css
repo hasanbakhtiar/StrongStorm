@@ -1,0 +1,21 @@
+body{
+    height: 200vh;
+}
+
+.container{
+    /* width: 100%;
+    height: 500px;
+    background-image: url('antaresRocet.jpg'); */
+    /* background-size: contain; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+}
+img{
+    float: left;
+}
+.myText{
+    clear: both;
+}
+

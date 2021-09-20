@@ -1,0 +1,37 @@
+.box1{
+    /* Block */
+    /* Bolk element width and height qəbul edir */
+    /* Və Bütün sətri tutur */
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+
+.box2{
+    /* inline */
+    /* İnline element nə width nə də height qəbul etmir! */
+    /* Yuxarıda göstərildiyi səbəbə görədə yalnız mətn dəyərlərində istifadə edilir */
+
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 106);
+}
+
+.box3{
+    /* inline-block */
+    /* inline-block element həm blok elementin həm də  inline elmentin xüsusiyyətini daşıyır */
+    /* inline-block element width və hieght qəbul edir amma bütün sətri tutmur! */
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 26, 255);
+}
+
+span{
+    background: black;
+    width: 100px;
+    height: 100px;
+    color: red;
+}

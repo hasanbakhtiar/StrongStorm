@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+        display: flex;
+        /* flex-direction: column; */
+        /* flex-direction: row; */
+        /* flex-direction: column-reverse; */
+        /* flex-direction: row-reverse; */
+        /* align-items: center ;row */
+        /* justify-content: center ;column */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        /* align-items: stretch; */
+        flex-wrap: wrap;
+        /* flex-wrap: nowrap; */
+}
+.container .box{
+    margin: 3px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}

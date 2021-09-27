@@ -1,0 +1,31 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: rgb(110, 90, 0);
+        // transform: translateX(100px);
+        // transform: translateY(-100px);
+        // transform: translate(100px,100px);
+        // transform: rotate(52deg);
+        // transform: scaleY(2);
+        // transform: scaleX(2);
+        // transform: scale(2,2);
+        // transition: 1s;
+        // transform: skewX(10deg);
+        // transform: skewY(20deg);    
+        // transform: skew(20deg,20deg);
+
+        // &:hover{
+        //     // transform: skewX(20deg);
+
+        // }
+        // matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+        // transform: matrix(1, -0.3, 0, 1, 0, 0);
+        
+    }
+}

@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.container .box:hover {
+  background-color: #115700;
+}
+
+.container .box:hover p {
+  -webkit-transition: 1s;
+  transition: 1s;
+  color: #fff;
+}
+
+h1::before {
+  content: 'Hello1';
+}
+
+h1::after {
+  content: 'Hello2';
+  font-size: 20px;
+  color: red;
+}
+
+.box-one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-transition: 5s;
+  transition: 5s;
+}
+
+.box-one:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 200px;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */

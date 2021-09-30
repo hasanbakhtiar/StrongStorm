@@ -1,0 +1,45 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: eloset;
+    animation-duration: 1000s; //faiz hissesi saniyəyə görə bölgü aparır.
+    animation-iteration-count: infinite;
+}
+
+@keyframes eloset{
+    // from{left: 0px;}
+    // to{left: 500px;}
+    //faiz hissesi saniyəyə görə bölgü aparır.
+    0%{left: 0;top: 0;background-color: red;}
+    .5%{left: 300px;top: 0; background-color: green;}
+    .7%{left: 0px;top: 0; background-color: green;}
+    // 50%{left: 300px; top: 300px; background-color: rgb(140, 0, 153);}
+    // 75%{left: 0; top: 300px; background-color: rgb(0, 128, 128);}
+    // 100%{left: 0px;top: 0px;background-color: brown;}
+
+
+}
+
+div  h1{
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar2
+// https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child

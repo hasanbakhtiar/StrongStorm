@@ -1,0 +1,53 @@
+body {
+  height: 200vh;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 200px;
+  z-index: 1;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav {
+  height: 100px;
+  width: 90%;
+  background-color: blanchedalmond;
+}
+
+header nav ul {
+  width: auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #b3b003;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+}
+/*# sourceMappingURL=style.css.map */

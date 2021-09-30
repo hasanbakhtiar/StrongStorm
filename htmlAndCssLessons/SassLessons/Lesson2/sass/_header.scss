@@ -1,0 +1,12 @@
+header{
+.container{
+    height: 100vh;
+    @include center();
+    .box{
+        width: 100px;
+        height: 100px;
+        background: $qara;
+        margin: 10px;
+    }
+}
+}

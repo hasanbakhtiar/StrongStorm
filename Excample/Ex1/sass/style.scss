@@ -1,0 +1,40 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+ .sec-1{
+     width: 100%;
+     height: 560px;
+     background-image: url('../img/bg1.jpg');
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+ .main-bg-text{
+     width: 100%;
+     height: 560px;
+     .bg-text{
+         *{
+             color:#fff;
+         }
+     }
+ }
+.navbar{
+    background: rgba($color: #000000, $alpha: .7);
+}
+ .sec-2{
+     width: 100%;
+     height: auto;
+     .sec2-box{
+         background-color: yellow;
+         border: 1px #000 solid;
+     height: 385px;
+     width: 315px;
+     .sec2-box-alt{
+        height: 285px;
+        width: 215px;
+     }
+
+     }
+ }

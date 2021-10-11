@@ -1,0 +1,25 @@
+.sec-2{
+    height: 438px;
+    background-color: $gold;
+
+
+    .sec2-card{
+        height: 420px;
+        border-radius: 0px;
+    }
+  
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+    .sec-2{
+
+        height: auto;
+        .main-con-sec2{
+            width: 75%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+    }
+}

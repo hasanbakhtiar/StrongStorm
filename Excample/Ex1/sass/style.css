@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -39,5 +43,38 @@
 .sec-2 .sec2-box .sec2-box-alt {
   height: 285px;
   width: 215px;
+}
+
+.myButton {
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 5px 20px;
+}
+
+.sec-2 {
+  height: 438px;
+  background-color: #eaa636;
+}
+
+.sec-2 .sec2-card {
+  height: 420px;
+  border-radius: 0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .sec-2 {
+    height: auto;
+  }
+  .sec-2 .main-con-sec2 {
+    width: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.sec-3 {
+  width: 100%;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */

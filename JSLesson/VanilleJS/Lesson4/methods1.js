@@ -65,9 +65,9 @@ console.log(c.search('o'));
 //             document.write(metn);
 //             var netice = metn.LastIndexOf("Java",32);sonuncu "Java" sözünü tapır.Yazılan rəqəm sayı qədər olan hissəyə qədər axtarır.
 //             document.write(netice);
-//   1.13.startWith() -> hər hansı bir dəyəri methodun parametr hissəsinə daxil edərək dəyişkənin ƏVVƏLİNDƏ olub olmamasını Boolean(true/false) data tipi ilə göstərir 
+//   1.13.startsWith() -> hər hansı bir dəyəri methodun parametr hissəsinə daxil edərək dəyişkənin ƏVVƏLİNDƏ olub olmamasını Boolean(true/false) data tipi ilə göstərir 
 //             var metn = "JavaScript superdir";
-//             metn.startWith("JavaScript");
+//             metn.startsWith("JavaScript");
 //        endsWith()  -> hər hansı bir dəyəri methodun parametr hissəsinə daxil edərək dəyişkənin SONUNDA olub olmamasını Boolean(true/false) data tipi ilə göstərir 
 //             var metn = "JavaScript superdir";
 //             metn.endsWith("superdir");

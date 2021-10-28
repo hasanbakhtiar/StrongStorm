@@ -104,13 +104,13 @@ console.log(c.search('o'));
 //         var netice = metn.split(" ");
 //         document.write(netice[2]);
         
-//   1.19.localCompare -> iki dəyişkənin içindəki dəyərləri parametrik olaraq unikod`a əsasən yəni browserə əsasən qarşılaşdırır.
+//   1.19.localeCompare -> iki dəyişkənin içindəki dəyərləri parametrik olaraq unikod`a əsasən yəni browserə əsasən qarşılaşdırır.
 //                       -1 :  birinci dəyişkənin dəyəri ikinci dəyişkənin dəyərindəndən ƏVVƏL gəlirsə
 //                        0 :  birinci dəyişkənin dəyəri ikinci dəyişkənin dəyərinə bərabərsə
 //                        1 :  birinci dəyişkənin dəyəri ikinci dəyişkənin dəyərindəndən SONRA gəlirsə
 //                       var soz1 = "abc";
 //                       var soz2 = "abd";
-//                       var netice = soz1.localCompare(soz2);
+//                       var netice = soz1.localeCompare(soz2);
 //                       document.write(netice); 
 //   1.20.charAt()        ->   dəyişkənin dəyərinin index nömrəsini parametr hissəsinə daxil etdikdə həmin index nömrəsində olan dəyəri göstərir.
 //                         var metn = "JavaScript";

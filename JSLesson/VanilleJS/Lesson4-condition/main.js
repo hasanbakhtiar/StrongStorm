@@ -4,6 +4,7 @@
 // else -> deyilsə
 
 const myTime = 23;
+
 /*
 seher - 5
 gun orta - 13

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>a{display: block;margin-bottom: 20px;}
+
+
+    .new-text{color:blue;}
+    
+    </style>
+
+   
+</head>
+<body>
+
+    <button onclick="color()">Color</button>
+
+    <h1>Header</h1>
+
+    <h5 class="h5-text">hello</h5>
+    <h5 class="h5-text">hello</h5>
+    <h5 class="h5-text">hello</h5>
+    <h5 class="h5-text">hello</h5>
+    <h5 class="h5-text">hello</h5>
+
+
+    <p>Hello</p>
+    <p id="text">Text1</p>
+    <p class="test">Text2</p>
+    <p class="test">Text2</p>
+    <p class="test">Text2</p>
+    <a href="https://google.com">Google</a>
+
+    <button onclick="infoData()" ondblclick="infoText()">New Text</button>
+
+    <script>
+
+const color=()=>{
+const colorSelector = document.querySelectorAll('.h5-text');
+
+const data = 0;//h5-lərin sayını çıxardan funksiya yaza bilərsən.
+
+    for (let index = data; index < 5; index++) {
+colorSelector[index].attributes[0].value = 'new-text';
+      
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+const infoData=()=>{
+    const dataSelector = document.querySelectorAll('.test');
+
+    for (let index = 0; index < 3; index++) {
+       dataSelector[index].style.display = 'none';
+        
+    }
+}
+
+const infoText=()=>{
+
+    const elemntSelector = document.querySelectorAll('.test');
+
+    for (let index = 0; index <4; index++) {
+        elemntSelector[index].style.background = 'red';
+        elemntSelector[index].style.color = '#fff';
+        elemntSelector[index].style.width = '100px';
+        elemntSelector[index].style.display = 'block';
+
+        
+    }
+
+    
+    // elemntSelector.attributes[0].value="https://youtube.com";
+
+
+    // for(let i = 0; i<3; i++){
+    //     document.querySelectorAll('.test')[i].innerHTML = "New Text";
+
+    // }
+    
+    // document.querySelector('.test').innerHTML = "New Text";
+    // document.getElementById('text').innerHTML = "New Text";
+    // document.getElementsByClassName('test')[2].innerHTML = "New Text";
+    // document.getElementsByTagName('h1')[0].innerHTML = "New Text";
+}
+
+
+
+
+    </script>
+    
+
+    <!-- <script src="js/main.js"></script> -->
+</body>
+</html>

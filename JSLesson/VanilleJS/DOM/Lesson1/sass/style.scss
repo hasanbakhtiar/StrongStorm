@@ -1,0 +1,32 @@
+header{
+    height: 70px;
+    width: 100%;
+    background-color: #eee;
+    nav{
+        height: 70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        ul{
+            height: 70px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+    }
+    
+}
+
+.dropDwon{
+    
+    width: 220px;
+    height: 7px;
+    ul{
+        width: 220px;
+    height: 7px;
+    display: flex;
+    flex-direction: column;
+    }
+}

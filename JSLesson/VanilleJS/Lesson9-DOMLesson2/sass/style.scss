@@ -1,0 +1,12 @@
+#test{
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    .remove-btn{
+        transform: translate(20px,120px);
+        
+    }
+}

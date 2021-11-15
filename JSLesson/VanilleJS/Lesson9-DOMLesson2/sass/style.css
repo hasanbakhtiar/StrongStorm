@@ -1,0 +1,15 @@
+#test {
+  -webkit-transition: 2s;
+  transition: 2s;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+#test .remove-btn {
+  -webkit-transform: translate(20px, 120px);
+          transform: translate(20px, 120px);
+}
+/*# sourceMappingURL=style.css.map */

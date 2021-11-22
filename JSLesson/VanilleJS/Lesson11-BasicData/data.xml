@@ -1,0 +1,17 @@
+<Car>
+  <id count="1">
+    <brend>Mercedes</brend>
+    <model>S500</model>
+    <color>white</color>
+    <engine>v5</engine>
+    <doorType>4</doorType>
+  </id>
+
+  <id count="2">
+    <brend>Mercedes</brend>
+    <model>S500</model>
+    <color>white</color>
+    <engine>v5</engine>
+    <doorType>4</doorType>
+  </id>
+</Car>

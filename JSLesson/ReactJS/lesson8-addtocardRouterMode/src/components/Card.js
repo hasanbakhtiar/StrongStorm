@@ -26,7 +26,7 @@ const Card = () => {
                                 {items.map((item, index) => {
                                     return (
                                         <tr key={index}>
-                                            <td><img src={item.img} style={{ height: '6rem' }} /></td>
+                                            <td><img src={item.img} style={{ height: '6rem' }} alt="err" /></td>
                                             <td>{item.title}</td>
                                             <td>{item.price}</td>
                                             <td>{item.quantity}</td>
